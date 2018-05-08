@@ -1,0 +1,36 @@
+.hauteur-fixe-40 li{
+	padding: 0px;
+	line-height: 26px;
+	min-height: 26px;
+	max-height: 26px;
+	height: 26px;
+	overflow: hidden;
+	cursor: default;
+}
+.hauteur-fixe-liens{
+	padding: 0;
+	height: auto;
+	overflow: hidden;
+	width: auto;
+}
+.dropdown-content li a, .dropdown-trigger li a{
+	font-size: 10pt;
+	color: steelblue;
+	padding: 2px 8px;
+}
+.dropdown-content li span, .dropdown-trigger li span{
+	font-size: 10pt;
+	color: grey;
+	padding: 2px 4px;
+}
+.barre-2-navigation{
+	padding: 0px 1px 1em 1em;
+}
+.petit-caracteres{
+	font-size: 10pt;
+}
+.enLibelle{
+	padding: 0 1em 0 0;
+	margin-bottom: 0;
+}
+.floating-info{ position: fixed; bottom: 1em; right: 2px; background-color: white; color: black; border-radius: 7px; width: 30%; padding: 1em 2em;}
