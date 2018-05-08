@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Script HTML-CSS Apparition avec restriction page : Outils-web.com</title>
+<meta name="description" content="Lors de l'affichage de la fenêtre modale la page source se contracte pour augmenter l'effet de zoom" />
+<meta name="Robots" content="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="css/avgrund.css">
+<script>
+	function openDialog() {	Avgrund.show( "#default-popup" );}
+	function closeDialog() {  Avgrund.hide();}
+</script>
+</head>
+<body>
+		<aside id="default-popup" class="avgrund-popup">
+			<h2>OUTILS-WEB</h2>
+			<p>Pour fermer cette fenêtre, pressez la touche Echap, cliquez sur fermer ou cliquez à l'extérieur de celle-ci</p>
+			<button onclick="javascript:closeDialog();">Fermer</button>
+		</aside>
+		<article class="avgrund-contents">
+			<button onclick="javascript:openDialog();">Ouvrir la fenêtre modale</button>
+		</article>
+<div class="avgrund-cover"></div>
+<script type="text/javascript" src="js/avgrund.js"></script>
+</body>
+</html>
